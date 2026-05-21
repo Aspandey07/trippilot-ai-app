@@ -1,0 +1,1074 @@
+{
+  "users": [
+    {
+      "_id": "45f47363388a0ff20bc6fabf",
+      "name": "ashish pandey",
+      "email": "meakp321@gmail.com",
+      "password": "$2b$10$ObHZDSKmeSPvZWoO9vW0HOR0mRELC351AosLmVrtEqZtU1ayErg7K",
+      "role": "admin",
+      "createdAt": "2026-05-21T07:52:30.878Z",
+      "updatedAt": "2026-05-21T07:52:30.879Z"
+    },
+    {
+      "_id": "9ec108a609cf984cadb0b475",
+      "name": "Super Admin",
+      "email": "admin@trippilot.com",
+      "password": "$2b$10$cocXNZHybNz6Dqp7hBUib.bICMHxOa/8CpUYLOcmeJkWcPvHGbvYW",
+      "role": "admin",
+      "createdAt": "2026-05-21T09:47:19.993Z",
+      "updatedAt": "2026-05-21T09:50:10.969Z"
+    },
+    {
+      "_id": "3eec924db8b7e27f59c44a07",
+      "name": "ankit",
+      "email": "meakp322@gmail.com",
+      "password": "$2b$10$QZ65hYVB0TDOVG9sTxPDQuYrQ1yXVC312XH/xF0UAwAdapkqkxjl2",
+      "role": "user",
+      "createdAt": "2026-05-21T09:50:53.880Z",
+      "updatedAt": "2026-05-21T09:50:53.880Z"
+    }
+  ],
+  "itineraries": [
+    {
+      "_id": "48a9f4293a1b2090321ca760",
+      "user": "3eec924db8b7e27f59c44a07",
+      "title": "trip to london",
+      "documents": [
+        {
+          "filename": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "originalname": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "destination": "Goa, India",
+      "travelDates": {
+        "checkIn": "2026-05-21",
+        "checkOut": "2026-05-26"
+      },
+      "flightDetails": {
+        "flightNumber": "AI-101 (Mock Flight)",
+        "departureTime": "2026-05-21T02:30:00.000Z",
+        "arrivalTime": "2026-05-21T05:00:00.000Z"
+      },
+      "hotelDetails": {
+        "hotelName": "Goa Luxury Resort & Spa",
+        "address": "123 Coast Road, Beachside, Goa, India"
+      },
+      "itinerarySummary": [
+        {
+          "day": 1,
+          "title": "Arrive in Sunny Goa & Sunset Vibe",
+          "activities": [
+            "Arrive at Goa International Airport / Train Station and transfer to your beachside resort.",
+            "Check-in and freshen up with view of the Arabian Sea.",
+            "Walk down to Baga Beach to catch a gorgeous golden sunset.",
+            "Enjoy a beachside dinner with live music, fresh seafood, and tropical mocktails/cocktails."
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Thrilling Water Sports & Fort Aguada",
+          "activities": [
+            "Have a buffet breakfast at the resort.",
+            "Participate in exciting water sports like jet skiing, parasailing, and banana boat rides at Calangute Beach.",
+            "Visit the historic 17th-century Fort Aguada and its beautiful lighthouse.",
+            "Relax in the evening at a cozy lounge in Candolim."
+          ]
+        },
+        {
+          "day": 3,
+          "title": "South Goa Culture & Spice Plantation Tour",
+          "activities": [
+            "Take a day trip to explore the charming heritage of South Goa.",
+            "Visit the famous UNESCO World Heritage site, Basilica of Bom Jesus, in Old Goa.",
+            "Take a guided tour of a tropical Spice Plantation followed by a traditional buffet lunch served on banana leaves.",
+            "Take a romantic sunset boat cruise on the Mandovi River with traditional Goan folk dances."
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Bohemian Beaches & Flea Markets",
+          "activities": [
+            "Explore the scenic cliffs and red sands of Vagator Beach.",
+            "Visit the famous Anjuna Beach, known for its bohemian flea markets and laidback shacks.",
+            "Have lunch at a cliffside restaurant overlooking the beach.",
+            "Spend a relaxing evening watching the waves at Arambol Beach."
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Souvenir Shopping & Departure",
+          "activities": [
+            "Enjoy a final morning walk along the beach and collect sea shells.",
+            "Shop for local Cashews, Feni, and beautiful handmade crafts in Panaji market.",
+            "Check out from your resort.",
+            "Transfer to the airport or railway station for your departure home with amazing memories."
+          ]
+        }
+      ],
+      "shareId": "9619c1e37ae02920",
+      "createdAt": "2026-05-21T09:59:23.762Z",
+      "updatedAt": "2026-05-21T09:59:23.762Z"
+    },
+    {
+      "_id": "ce75ae39022070a7b605ce39",
+      "user": "3eec924db8b7e27f59c44a07",
+      "title": "honeymoon",
+      "documents": [
+        {
+          "filename": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "originalname": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "destination": "Goa, India",
+      "travelDates": {
+        "checkIn": "2026-05-21",
+        "checkOut": "2026-05-26"
+      },
+      "flightDetails": {
+        "flightNumber": "AI-101 (Mock Flight)",
+        "departureTime": "2026-05-21T02:30:00.000Z",
+        "arrivalTime": "2026-05-21T05:00:00.000Z"
+      },
+      "hotelDetails": {
+        "hotelName": "Goa Luxury Resort & Spa",
+        "address": "123 Coast Road, Beachside, Goa, India"
+      },
+      "itinerarySummary": [
+        {
+          "day": 1,
+          "title": "Arrive in Sunny Goa & Sunset Vibe",
+          "activities": [
+            "Arrive at Goa International Airport / Train Station and transfer to your beachside resort.",
+            "Check-in and freshen up with view of the Arabian Sea.",
+            "Walk down to Baga Beach to catch a gorgeous golden sunset.",
+            "Enjoy a beachside dinner with live music, fresh seafood, and tropical mocktails/cocktails."
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Thrilling Water Sports & Fort Aguada",
+          "activities": [
+            "Have a buffet breakfast at the resort.",
+            "Participate in exciting water sports like jet skiing, parasailing, and banana boat rides at Calangute Beach.",
+            "Visit the historic 17th-century Fort Aguada and its beautiful lighthouse.",
+            "Relax in the evening at a cozy lounge in Candolim."
+          ]
+        },
+        {
+          "day": 3,
+          "title": "South Goa Culture & Spice Plantation Tour",
+          "activities": [
+            "Take a day trip to explore the charming heritage of South Goa.",
+            "Visit the famous UNESCO World Heritage site, Basilica of Bom Jesus, in Old Goa.",
+            "Take a guided tour of a tropical Spice Plantation followed by a traditional buffet lunch served on banana leaves.",
+            "Take a romantic sunset boat cruise on the Mandovi River with traditional Goan folk dances."
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Bohemian Beaches & Flea Markets",
+          "activities": [
+            "Explore the scenic cliffs and red sands of Vagator Beach.",
+            "Visit the famous Anjuna Beach, known for its bohemian flea markets and laidback shacks.",
+            "Have lunch at a cliffside restaurant overlooking the beach.",
+            "Spend a relaxing evening watching the waves at Arambol Beach."
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Souvenir Shopping & Departure",
+          "activities": [
+            "Enjoy a final morning walk along the beach and collect sea shells.",
+            "Shop for local Cashews, Feni, and beautiful handmade crafts in Panaji market.",
+            "Check out from your resort.",
+            "Transfer to the airport or railway station for your departure home with amazing memories."
+          ]
+        }
+      ],
+      "shareId": "80392205d480fdf6",
+      "createdAt": "2026-05-21T10:04:12.132Z",
+      "updatedAt": "2026-05-21T10:04:12.132Z"
+    },
+    {
+      "_id": "1387567d459cb356bda64f47",
+      "user": "3eec924db8b7e27f59c44a07",
+      "title": "My Amazing Vacation",
+      "documents": [
+        {
+          "filename": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "originalname": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "destination": "Whatsapp Image 2026 05 21 At 3 28 51 Pm",
+      "travelDates": {
+        "checkIn": "2026-05-21",
+        "checkOut": "2026-05-26"
+      },
+      "flightDetails": {
+        "flightNumber": "AI-101 (Mock Flight)",
+        "departureTime": "2026-05-21T02:30:00.000Z",
+        "arrivalTime": "2026-05-21T05:00:00.000Z"
+      },
+      "hotelDetails": {
+        "hotelName": "Whatsapp Image 2026 05 21 At 3 28 51 Pm Luxury Resort & Spa",
+        "address": "123 Main Street, Central, Whatsapp Image 2026 05 21 At 3 28 51 Pm"
+      },
+      "itinerarySummary": [
+        {
+          "day": 1,
+          "title": "Welcome to Whatsapp Image 2026 05 21 At 3 28 51 Pm & Initial Exploring",
+          "activities": [
+            "Arrive at the main airport/station of Whatsapp Image 2026 05 21 At 3 28 51 Pm and transfer to your hotel.",
+            "Check-in, settle down, and refresh yourself after the journey to Whatsapp Image 2026 05 21 At 3 28 51 Pm.",
+            "Take a leisurely stroll in the neighborhood or downtown area of Whatsapp Image 2026 05 21 At 3 28 51 Pm.",
+            "Enjoy a delicious welcome dinner at a highly-rated local restaurant specializing in Whatsapp Image 2026 05 21 At 3 28 51 Pm cuisine."
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Historic Landmarks & Cultural Tour",
+          "activities": [
+            "Embark on a guided city tour of Whatsapp Image 2026 05 21 At 3 28 51 Pm's most famous historical landmarks and attractions.",
+            "Visit local museums or galleries to understand the heritage of the region.",
+            "Stop at a charming cafe for a traditional local lunch/coffee.",
+            "Stroll through a famous city park or pedestrian street in the evening."
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Scenic Views & Local Experiences",
+          "activities": [
+            "Head to a popular observation deck or scenic spot for panoramic views of Whatsapp Image 2026 05 21 At 3 28 51 Pm.",
+            "Participate in a local cooking class, artisan workshop, or cultural activity.",
+            "Explore the vibrant markets or shopping district of Whatsapp Image 2026 05 21 At 3 28 51 Pm for unique finds.",
+            "Indulge in a premium dinner experience featuring local signature dishes."
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Day Trip or Off-the-Beaten-Path Adventure",
+          "activities": [
+            "Take a short trip outside the main area of Whatsapp Image 2026 05 21 At 3 28 51 Pm to explore surrounding nature or a nearby town.",
+            "Visit a historic castle, temple, sanctuary, or scenic countryside.",
+            "Have a picnic or a cozy lunch at a scenic spot.",
+            "Return to Whatsapp Image 2026 05 21 At 3 28 51 Pm for a relaxing evening and check out the local nightlife or night markets."
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Souvenir Shopping & Departure",
+          "activities": [
+            "Enjoy a final morning walk and capture last-minute photos.",
+            "Shop for authentic souvenirs, local treats, and crafts unique to Whatsapp Image 2026 05 21 At 3 28 51 Pm.",
+            "Return to the hotel to pack and complete the checkout process.",
+            "Transfer to the airport or station for your journey back home."
+          ]
+        }
+      ],
+      "shareId": "a835f5d3704b84f7",
+      "createdAt": "2026-05-21T10:20:14.496Z",
+      "updatedAt": "2026-05-21T10:20:14.496Z"
+    },
+    {
+      "_id": "ce427afa3cd904d592ca1ae8",
+      "user": "3eec924db8b7e27f59c44a07",
+      "title": "My Amazing Vacation",
+      "documents": [
+        {
+          "filename": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "originalname": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "destination": "Whatsapp Image 2026 05 21 At 3 28 51 Pm",
+      "travelDates": {
+        "checkIn": "2026-05-21",
+        "checkOut": "2026-05-26"
+      },
+      "flightDetails": {
+        "flightNumber": "AI-101 (Mock Flight)",
+        "departureTime": "2026-05-21T02:30:00.000Z",
+        "arrivalTime": "2026-05-21T05:00:00.000Z"
+      },
+      "hotelDetails": {
+        "hotelName": "Whatsapp Image 2026 05 21 At 3 28 51 Pm Luxury Resort & Spa",
+        "address": "123 Main Street, Central, Whatsapp Image 2026 05 21 At 3 28 51 Pm"
+      },
+      "itinerarySummary": [
+        {
+          "day": 1,
+          "title": "Welcome to Whatsapp Image 2026 05 21 At 3 28 51 Pm & Initial Exploring",
+          "activities": [
+            "Arrive at the main airport/station of Whatsapp Image 2026 05 21 At 3 28 51 Pm and transfer to your hotel.",
+            "Check-in, settle down, and refresh yourself after the journey to Whatsapp Image 2026 05 21 At 3 28 51 Pm.",
+            "Take a leisurely stroll in the neighborhood or downtown area of Whatsapp Image 2026 05 21 At 3 28 51 Pm.",
+            "Enjoy a delicious welcome dinner at a highly-rated local restaurant specializing in Whatsapp Image 2026 05 21 At 3 28 51 Pm cuisine."
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Historic Landmarks & Cultural Tour",
+          "activities": [
+            "Embark on a guided city tour of Whatsapp Image 2026 05 21 At 3 28 51 Pm's most famous historical landmarks and attractions.",
+            "Visit local museums or galleries to understand the heritage of the region.",
+            "Stop at a charming cafe for a traditional local lunch/coffee.",
+            "Stroll through a famous city park or pedestrian street in the evening."
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Scenic Views & Local Experiences",
+          "activities": [
+            "Head to a popular observation deck or scenic spot for panoramic views of Whatsapp Image 2026 05 21 At 3 28 51 Pm.",
+            "Participate in a local cooking class, artisan workshop, or cultural activity.",
+            "Explore the vibrant markets or shopping district of Whatsapp Image 2026 05 21 At 3 28 51 Pm for unique finds.",
+            "Indulge in a premium dinner experience featuring local signature dishes."
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Day Trip or Off-the-Beaten-Path Adventure",
+          "activities": [
+            "Take a short trip outside the main area of Whatsapp Image 2026 05 21 At 3 28 51 Pm to explore surrounding nature or a nearby town.",
+            "Visit a historic castle, temple, sanctuary, or scenic countryside.",
+            "Have a picnic or a cozy lunch at a scenic spot.",
+            "Return to Whatsapp Image 2026 05 21 At 3 28 51 Pm for a relaxing evening and check out the local nightlife or night markets."
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Souvenir Shopping & Departure",
+          "activities": [
+            "Enjoy a final morning walk and capture last-minute photos.",
+            "Shop for authentic souvenirs, local treats, and crafts unique to Whatsapp Image 2026 05 21 At 3 28 51 Pm.",
+            "Return to the hotel to pack and complete the checkout process.",
+            "Transfer to the airport or station for your journey back home."
+          ]
+        }
+      ],
+      "shareId": "823b1ac7399fc945",
+      "createdAt": "2026-05-21T10:26:33.987Z",
+      "updatedAt": "2026-05-21T10:26:33.987Z"
+    },
+    {
+      "_id": "401370e851b3a22294012a28",
+      "user": "3eec924db8b7e27f59c44a07",
+      "title": "honeymoon",
+      "documents": [
+        {
+          "filename": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "originalname": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "destination": "Honeymoon",
+      "travelDates": {
+        "checkIn": "2026-05-21",
+        "checkOut": "2026-05-26"
+      },
+      "flightDetails": {
+        "flightNumber": "AI-101 (Mock Flight)",
+        "departureTime": "2026-05-21T02:30:00.000Z",
+        "arrivalTime": "2026-05-21T05:00:00.000Z"
+      },
+      "hotelDetails": {
+        "hotelName": "Honeymoon Luxury Resort & Spa",
+        "address": "123 Main Street, Central, Honeymoon"
+      },
+      "itinerarySummary": [
+        {
+          "day": 1,
+          "title": "Welcome to Honeymoon & Initial Exploring",
+          "activities": [
+            "Arrive at the main airport/station of Honeymoon and transfer to your hotel.",
+            "Check-in, settle down, and refresh yourself after the journey to Honeymoon.",
+            "Take a leisurely stroll in the neighborhood or downtown area of Honeymoon.",
+            "Enjoy a delicious welcome dinner at a highly-rated local restaurant specializing in Honeymoon cuisine."
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Historic Landmarks & Cultural Tour",
+          "activities": [
+            "Embark on a guided city tour of Honeymoon's most famous historical landmarks and attractions.",
+            "Visit local museums or galleries to understand the heritage of the region.",
+            "Stop at a charming cafe for a traditional local lunch/coffee.",
+            "Stroll through a famous city park or pedestrian street in the evening."
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Scenic Views & Local Experiences",
+          "activities": [
+            "Head to a popular observation deck or scenic spot for panoramic views of Honeymoon.",
+            "Participate in a local cooking class, artisan workshop, or cultural activity.",
+            "Explore the vibrant markets or shopping district of Honeymoon for unique finds.",
+            "Indulge in a premium dinner experience featuring local signature dishes."
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Day Trip or Off-the-Beaten-Path Adventure",
+          "activities": [
+            "Take a short trip outside the main area of Honeymoon to explore surrounding nature or a nearby town.",
+            "Visit a historic castle, temple, sanctuary, or scenic countryside.",
+            "Have a picnic or a cozy lunch at a scenic spot.",
+            "Return to Honeymoon for a relaxing evening and check out the local nightlife or night markets."
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Souvenir Shopping & Departure",
+          "activities": [
+            "Enjoy a final morning walk and capture last-minute photos.",
+            "Shop for authentic souvenirs, local treats, and crafts unique to Honeymoon.",
+            "Return to the hotel to pack and complete the checkout process.",
+            "Transfer to the airport or station for your journey back home."
+          ]
+        }
+      ],
+      "shareId": "3be36f638faa572f",
+      "createdAt": "2026-05-21T16:26:10.256Z",
+      "updatedAt": "2026-05-21T16:26:10.256Z"
+    },
+    {
+      "_id": "f7cc034bb2076e7786587072",
+      "user": "3eec924db8b7e27f59c44a07",
+      "title": "london",
+      "documents": [
+        {
+          "filename": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "originalname": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "destination": "London, United Kingdom",
+      "travelDates": {
+        "checkIn": "2026-05-21",
+        "checkOut": "2026-05-26"
+      },
+      "flightDetails": {
+        "flightNumber": "AI-101 (Mock Flight)",
+        "departureTime": "2026-05-21T02:30:00.000Z",
+        "arrivalTime": "2026-05-21T05:00:00.000Z"
+      },
+      "hotelDetails": {
+        "hotelName": "London Luxury Resort & Spa",
+        "address": "123 Main Street, Central, London, United Kingdom"
+      },
+      "itinerarySummary": [
+        {
+          "day": 1,
+          "title": "Welcome to London & Iconic West End stroll",
+          "activities": [
+            "Arrive at London Heathrow Airport (LHR) and transfer to your hotel in central London.",
+            "Check-in and freshen up before exploring the lively Covent Garden.",
+            "Walk around Leicester Square and Piccadilly Circus to see the famous neon displays.",
+            "Enjoy a classic pub dinner with fish and chips in Soho."
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Royal Landmarks & Tower Bridge Cruise",
+          "activities": [
+            "Visit Buckingham Palace to witness the Changing of the Guard ceremony.",
+            "Walk through St. James's Park to see Westminster Abbey and the majestic Big Ben.",
+            "Board a scenic River Thames cruise down to Tower Bridge.",
+            "Explore the historic Tower of London and view the magnificent Crown Jewels."
+          ]
+        },
+        {
+          "day": 3,
+          "title": "World-Class Museums & London Eye View",
+          "activities": [
+            "Spend the morning exploring the historic British Museum.",
+            "Stroll down Regent Street and Oxford Street for shopping.",
+            "Experience a traditional English afternoon tea at a charming tea house.",
+            "Take a flight on the London Eye at sunset for panoramic views of the city skyline."
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Windsor Castle & Stonehenge excursion",
+          "activities": [
+            "Take a day trip excursion to Windsor Castle, the oldest occupied castle in the world.",
+            "Continue to the prehistoric stone circle monument of Stonehenge.",
+            "Learn about ancient history at the Stonehenge Visitor Centre.",
+            "Return to London for a gourmet dinner in the vibrant Kensington area."
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Hyde Park Stroll & Departure",
+          "activities": [
+            "Enjoy a peaceful morning walk through Hyde Park and visit Kensington Palace.",
+            "Do some luxury souvenir shopping at Harrods in Knightsbridge.",
+            "Check out from your hotel.",
+            "Transfer to the airport for your flight back home."
+          ]
+        }
+      ],
+      "shareId": "af04a0d560c52640",
+      "createdAt": "2026-05-21T16:27:00.256Z",
+      "updatedAt": "2026-05-21T16:27:00.256Z"
+    },
+    {
+      "_id": "16fb67cf5a55d6b84f12cb26",
+      "user": "3eec924db8b7e27f59c44a07",
+      "title": "london",
+      "documents": [
+        {
+          "filename": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "originalname": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "destination": "Your, 木辻通, 平野上柳町, 右京区, 京都市, 京都府, 603-8577, 日本",
+      "travelDates": {
+        "checkIn": "1990-01-11",
+        "checkOut": "2026-05-21"
+      },
+      "flightDetails": {
+        "flightNumber": "MAY 2024"
+      },
+      "hotelDetails": {
+        "hotelName": "花園会館",
+        "address": "妙心寺道, 西ノ京中保町, 右京区, 京都市, 京都府, 604-8452, 日本"
+      },
+      "itinerarySummary": [
+        {
+          "day": 1,
+          "title": "Welcome to Your & Initial Exploring",
+          "activities": [
+            "Arrive at the main airport/station of Your and transfer to your hotel.",
+            "Check-in, settle down, and refresh yourself after the journey to Your.",
+            "Take a leisurely stroll in the neighborhood or downtown area of Your.",
+            "Enjoy a delicious welcome dinner at a highly-rated local restaurant specializing in Your cuisine."
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Historic Landmarks & Cultural Tour",
+          "activities": [
+            "Embark on a guided city tour of Your's most famous historical landmarks and attractions.",
+            "Visit local museums or galleries to understand the heritage of the region.",
+            "Stop at a charming cafe for a traditional local lunch/coffee.",
+            "Stroll through a famous city park or pedestrian street in the evening."
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Scenic Views & Local Experiences",
+          "activities": [
+            "Head to a popular observation deck or scenic spot for panoramic views of Your.",
+            "Participate in a local cooking class, artisan workshop, or cultural activity.",
+            "Explore the vibrant markets or shopping district of Your for unique finds.",
+            "Indulge in a premium dinner experience featuring local signature dishes."
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Day Trip or Off-the-Beaten-Path Adventure",
+          "activities": [
+            "Take a short trip outside the main area of Your to explore surrounding nature or a nearby town.",
+            "Visit a historic castle, temple, sanctuary, or scenic countryside.",
+            "Have a picnic or a cozy lunch at a scenic spot.",
+            "Return to Your for a relaxing evening and check out the local nightlife or night markets."
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Souvenir Shopping & Departure",
+          "activities": [
+            "Enjoy a final morning walk and capture last-minute photos.",
+            "Shop for authentic souvenirs, local treats, and crafts unique to Your.",
+            "Return to the hotel to pack and complete the checkout process.",
+            "Transfer to the airport or station for your journey back home."
+          ]
+        }
+      ],
+      "liveWeather": {
+        "temp": 19.9,
+        "condition": "Partly cloudy",
+        "suitability": "Great weather for travel. Comfortable skies. Very pleasant temperature. Perfect for outdoor sightseeing!"
+      },
+      "suggestedHotels": [
+        {
+          "name": "花園会館",
+          "address": "妙心寺道, 西ノ京中保町, 右京区, 京都市, 京都府, 604-8452, 日本"
+        },
+        {
+          "name": "HOTEL 宇多野京都別墅",
+          "address": "宇多野御屋敷町, 御室岡ノ裾町, 右京区, 京都市, 京都府, 616-8205, 日本"
+        },
+        {
+          "name": "ホテルエクセレンス円町駅前",
+          "address": "丸太町通, 西ノ京円町, 中京区, 京都市, 京都府, 604-8463, 日本"
+        }
+      ],
+      "shareId": "7535846b1bb2dc2e",
+      "createdAt": "2026-05-21T17:20:07.404Z",
+      "updatedAt": "2026-05-21T17:20:07.404Z"
+    },
+    {
+      "_id": "7d4dc178a2c9ffb82ab985c5",
+      "user": "9ec108a609cf984cadb0b475",
+      "title": "london",
+      "documents": [
+        {
+          "filename": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "originalname": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "destination": "Your, 木辻通, 平野上柳町, 右京区, 京都市, 京都府, 603-8577, 日本",
+      "travelDates": {
+        "checkIn": "1990-01-11",
+        "checkOut": "2026-05-21"
+      },
+      "flightDetails": {
+        "flightNumber": "MAY 2024"
+      },
+      "hotelDetails": {
+        "hotelName": "花園会館",
+        "address": "妙心寺道, 西ノ京中保町, 右京区, 京都市, 京都府, 604-8452, 日本"
+      },
+      "itinerarySummary": [
+        {
+          "day": 1,
+          "title": "Welcome to Your & Initial Exploring",
+          "activities": [
+            "Arrive at the main airport/station of Your and transfer to your hotel.",
+            "Check-in, settle down, and refresh yourself after the journey to Your.",
+            "Take a leisurely stroll in the neighborhood or downtown area of Your.",
+            "Enjoy a delicious welcome dinner at a highly-rated local restaurant specializing in Your cuisine."
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Historic Landmarks & Cultural Tour",
+          "activities": [
+            "Embark on a guided city tour of Your's most famous historical landmarks and attractions.",
+            "Visit local museums or galleries to understand the heritage of the region.",
+            "Stop at a charming cafe for a traditional local lunch/coffee.",
+            "Stroll through a famous city park or pedestrian street in the evening."
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Scenic Views & Local Experiences",
+          "activities": [
+            "Head to a popular observation deck or scenic spot for panoramic views of Your.",
+            "Participate in a local cooking class, artisan workshop, or cultural activity.",
+            "Explore the vibrant markets or shopping district of Your for unique finds.",
+            "Indulge in a premium dinner experience featuring local signature dishes."
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Day Trip or Off-the-Beaten-Path Adventure",
+          "activities": [
+            "Take a short trip outside the main area of Your to explore surrounding nature or a nearby town.",
+            "Visit a historic castle, temple, sanctuary, or scenic countryside.",
+            "Have a picnic or a cozy lunch at a scenic spot.",
+            "Return to Your for a relaxing evening and check out the local nightlife or night markets."
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Souvenir Shopping & Departure",
+          "activities": [
+            "Enjoy a final morning walk and capture last-minute photos.",
+            "Shop for authentic souvenirs, local treats, and crafts unique to Your.",
+            "Return to the hotel to pack and complete the checkout process.",
+            "Transfer to the airport or station for your journey back home."
+          ]
+        }
+      ],
+      "liveWeather": {
+        "temp": 19.9,
+        "condition": "Partly cloudy",
+        "suitability": "Great weather for travel. Comfortable skies. Very pleasant temperature. Perfect for outdoor sightseeing!"
+      },
+      "suggestedHotels": [
+        {
+          "name": "花園会館",
+          "address": "妙心寺道, 西ノ京中保町, 右京区, 京都市, 京都府, 604-8452, 日本"
+        },
+        {
+          "name": "HOTEL 宇多野京都別墅",
+          "address": "宇多野御屋敷町, 御室岡ノ裾町, 右京区, 京都市, 京都府, 616-8205, 日本"
+        },
+        {
+          "name": "ホテルエクセレンス円町駅前",
+          "address": "丸太町通, 西ノ京円町, 中京区, 京都市, 京都府, 604-8463, 日本"
+        }
+      ],
+      "shareId": "63bcf550bad639e2",
+      "createdAt": "2026-05-21T17:22:02.337Z",
+      "updatedAt": "2026-05-21T17:22:02.337Z"
+    },
+    {
+      "_id": "2c33e40ff20eb2af5d1f072e",
+      "user": "3eec924db8b7e27f59c44a07",
+      "title": "london",
+      "documents": [
+        {
+          "filename": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "originalname": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "destination": "Greater London, England, United Kingdom",
+      "travelDates": {
+        "checkIn": "1990-01-11",
+        "checkOut": "2026-05-21"
+      },
+      "flightDetails": {
+        "flightNumber": "MAY 2024"
+      },
+      "hotelDetails": {
+        "hotelName": "City View Hotel",
+        "address": "11, Church Street, Mill Meads, West Ham, London Borough of Newham, Greater London, England, E15 3HU, United Kingdom"
+      },
+      "itinerarySummary": [
+        {
+          "day": 1,
+          "title": "Welcome to Greater London & Initial Exploring",
+          "activities": [
+            "Arrive at the main airport/station of Greater London and transfer to your hotel.",
+            "Check-in, settle down, and refresh yourself after the journey to Greater London.",
+            "Take a leisurely stroll in the neighborhood or downtown area of Greater London.",
+            "Enjoy a delicious welcome dinner at a highly-rated local restaurant specializing in Greater London cuisine."
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Historic Landmarks & Cultural Tour",
+          "activities": [
+            "Embark on a guided city tour of Greater London's most famous historical landmarks and attractions.",
+            "Visit local museums or galleries to understand the heritage of the region.",
+            "Stop at a charming cafe for a traditional local lunch/coffee.",
+            "Stroll through a famous city park or pedestrian street in the evening."
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Scenic Views & Local Experiences",
+          "activities": [
+            "Head to a popular observation deck or scenic spot for panoramic views of Greater London.",
+            "Participate in a local cooking class, artisan workshop, or cultural activity.",
+            "Explore the vibrant markets or shopping district of Greater London for unique finds.",
+            "Indulge in a premium dinner experience featuring local signature dishes."
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Day Trip or Off-the-Beaten-Path Adventure",
+          "activities": [
+            "Take a short trip outside the main area of Greater London to explore surrounding nature or a nearby town.",
+            "Visit a historic castle, temple, sanctuary, or scenic countryside.",
+            "Have a picnic or a cozy lunch at a scenic spot.",
+            "Return to Greater London for a relaxing evening and check out the local nightlife or night markets."
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Souvenir Shopping & Departure",
+          "activities": [
+            "Enjoy a final morning walk and capture last-minute photos.",
+            "Shop for authentic souvenirs, local treats, and crafts unique to Greater London.",
+            "Return to the hotel to pack and complete the checkout process.",
+            "Transfer to the airport or station for your journey back home."
+          ]
+        }
+      ],
+      "liveWeather": {
+        "temp": 23.4,
+        "condition": "Mainly clear",
+        "suitability": "Great weather for travel. Mild and comfortable. Very pleasant temperature. Perfect for outdoor sightseeing!"
+      },
+      "suggestedHotels": [
+        {
+          "name": "City View Hotel",
+          "address": "11, Church Street, Mill Meads, West Ham, London Borough of Newham, Greater London, England, E15 3HU, United Kingdom"
+        },
+        {
+          "name": "OYO Epsilon Hotel",
+          "address": "27A, Romford Road, Stratford, London Borough of Newham, Greater London, England, E15 4LJ, United Kingdom"
+        },
+        {
+          "name": "Sunningdale Hotel",
+          "address": "35, Lonsdale Road, Wanstead, London Borough of Redbridge, Greater London, England, E11 2PH, United Kingdom"
+        }
+      ],
+      "shareId": "47c4c96c157e956f",
+      "createdAt": "2026-05-21T17:35:19.815Z",
+      "updatedAt": "2026-05-21T17:35:19.815Z"
+    },
+    {
+      "_id": "362b35fd0a4ac1c848c1057e",
+      "user": "3eec924db8b7e27f59c44a07",
+      "title": "london",
+      "documents": [
+        {
+          "filename": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "originalname": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "destination": "Greater London, England, United Kingdom",
+      "travelDates": {
+        "checkIn": "1990-01-11",
+        "checkOut": "2026-05-21"
+      },
+      "flightDetails": {
+        "flightNumber": "MAY 2024"
+      },
+      "hotelDetails": {
+        "hotelName": "City View Hotel",
+        "address": "11, Church Street, Mill Meads, West Ham, London Borough of Newham, Greater London, England, E15 3HU, United Kingdom"
+      },
+      "itinerarySummary": [
+        {
+          "day": 1,
+          "title": "Welcome to Greater London & Initial Exploring",
+          "activities": [
+            "Arrive at the main airport/station of Greater London and transfer to your hotel.",
+            "Check-in, settle down, and refresh yourself after the journey to Greater London.",
+            "Take a leisurely stroll in the neighborhood or downtown area of Greater London.",
+            "Enjoy a delicious welcome dinner at a highly-rated local restaurant specializing in Greater London cuisine."
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Historic Landmarks & Cultural Tour",
+          "activities": [
+            "Embark on a guided city tour of Greater London's most famous historical landmarks and attractions.",
+            "Visit local museums or galleries to understand the heritage of the region.",
+            "Stop at a charming cafe for a traditional local lunch/coffee.",
+            "Stroll through a famous city park or pedestrian street in the evening."
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Scenic Views & Local Experiences",
+          "activities": [
+            "Head to a popular observation deck or scenic spot for panoramic views of Greater London.",
+            "Participate in a local cooking class, artisan workshop, or cultural activity.",
+            "Explore the vibrant markets or shopping district of Greater London for unique finds.",
+            "Indulge in a premium dinner experience featuring local signature dishes."
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Day Trip or Off-the-Beaten-Path Adventure",
+          "activities": [
+            "Take a short trip outside the main area of Greater London to explore surrounding nature or a nearby town.",
+            "Visit a historic castle, temple, sanctuary, or scenic countryside.",
+            "Have a picnic or a cozy lunch at a scenic spot.",
+            "Return to Greater London for a relaxing evening and check out the local nightlife or night markets."
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Souvenir Shopping & Departure",
+          "activities": [
+            "Enjoy a final morning walk and capture last-minute photos.",
+            "Shop for authentic souvenirs, local treats, and crafts unique to Greater London.",
+            "Return to the hotel to pack and complete the checkout process.",
+            "Transfer to the airport or station for your journey back home."
+          ]
+        }
+      ],
+      "liveWeather": {
+        "temp": 23.4,
+        "condition": "Mainly clear",
+        "suitability": "Great weather for travel. Mild and comfortable. Very pleasant temperature. Perfect for outdoor sightseeing!"
+      },
+      "suggestedHotels": [
+        {
+          "name": "City View Hotel",
+          "address": "11, Church Street, Mill Meads, West Ham, London Borough of Newham, Greater London, England, E15 3HU, United Kingdom"
+        },
+        {
+          "name": "OYO Epsilon Hotel",
+          "address": "27A, Romford Road, Stratford, London Borough of Newham, Greater London, England, E15 4LJ, United Kingdom"
+        },
+        {
+          "name": "Sunningdale Hotel",
+          "address": "35, Lonsdale Road, Wanstead, London Borough of Redbridge, Greater London, England, E11 2PH, United Kingdom"
+        }
+      ],
+      "shareId": "741c8e3c073df4f7",
+      "createdAt": "2026-05-21T17:40:57.729Z",
+      "updatedAt": "2026-05-21T17:40:57.729Z"
+    },
+    {
+      "_id": "0a3ae70521b1122559fc2810",
+      "user": "3eec924db8b7e27f59c44a07",
+      "title": "london",
+      "documents": [
+        {
+          "filename": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "originalname": "WhatsApp Image 2026-05-21 at 3.28.51 PM.jpeg",
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "destination": "Greater London, England, United Kingdom",
+      "travelDates": {
+        "checkIn": "2024-05-23",
+        "checkOut": "2024-05-23"
+      },
+      "flightDetails": {
+        "flightNumber": "YT 1023",
+        "departureTime": "09:30 EDT",
+        "arrivalTime": "21:15 BST"
+      },
+      "hotelDetails": {
+        "hotelName": "City View Hotel",
+        "address": "11, Church Street, Mill Meads, West Ham, London Borough of Newham, Greater London, England, E15 3HU, United Kingdom"
+      },
+      "itinerarySummary": [
+        {
+          "day": 1,
+          "title": "May 23, 2024 - Arrival & Evening Immersion in East London",
+          "activities": [
+            "**21:15 - 22:30: Arrival at London Heathrow (LHR) & Seamless Transfer.** Upon arrival at London Heathrow Terminal 3, swiftly navigate through immigration and customs. Collect your luggage efficiently. For a premium and expedited transfer, take the Heathrow Express train directly to Paddington Station (approx. 15-minute journey). From Paddington, seamlessly connect to the London Underground (Bakerloo line to Oxford Circus, then Central line to Stratford, or a similar route depending on real-time service updates) or a pre-booked private transfer for direct access to your hotel in West Ham. This initial journey offers a glimpse of London's efficient transport network and diverse urban landscape.",
+            "**22:30 - 23:00: Check-in at City View Hotel.** Arrive at the City View Hotel, located at 11, Church Street, Mill Meads, West Ham, E15 3HU. Enjoy a smooth and swift check-in process, settling into your room. Take a moment to refresh and prepare for an authentic late-night London experience. The current weather, a clear sky with a pleasant 23.3°C, sets the perfect backdrop for an enjoyable evening stroll.",
+            "**23:00 - 00:30: Traditional British Pub & Local Charm.** Immerse yourself in a deeply traditional cultural experience by visiting a local, highly-rated British pub within walking distance or a short taxi ride from your hotel. Establishments like 'The Abbey Tap' in Stratford (a short distance from West Ham) offer a genuine atmosphere. Enjoy a classic late-night meal, perhaps a hearty fish and chips or a traditional pie, paired with a local craft ale or a fine gin and tonic. This offers a true taste of British hospitality and culture, providing a perfect end to your arrival day in London. The clear, pleasant evening weather is ideal for a comfortable walk to and from the pub, allowing you to appreciate the illuminated streets.",
+            "**00:30 onwards: Gentle Evening Stroll & Rest.** After your pub experience, take a relaxing, safe stroll around the immediate vicinity of West Ham. Enjoy the quiet charm of the neighborhood and the pleasant evening air, enhanced by the clear skies. Observe the subtle glow of the city lights and perhaps catch glimpses of the distant Canary Wharf skyline. This provides a serene conclusion to your first day, allowing you to absorb the atmosphere of London before returning to the City View Hotel for a well-deserved rest, preparing you for future adventures if your trip extended beyond this single day."
+          ]
+        }
+      ],
+      "liveWeather": {
+        "temp": 23.3,
+        "condition": "Clear sky",
+        "suitability": "Excellent weather for travel! Pleasant and sunny. Very pleasant temperature. Perfect for outdoor sightseeing!"
+      },
+      "suggestedHotels": [
+        {
+          "name": "City View Hotel",
+          "address": "11, Church Street, Mill Meads, West Ham, London Borough of Newham, Greater London, England, E15 3HU, United Kingdom"
+        },
+        {
+          "name": "OYO Epsilon Hotel",
+          "address": "27A, Romford Road, Stratford, London Borough of Newham, Greater London, England, E15 4LJ, United Kingdom"
+        },
+        {
+          "name": "Sunningdale Hotel",
+          "address": "35, Lonsdale Road, Wanstead, London Borough of Redbridge, Greater London, England, E11 2PH, United Kingdom"
+        }
+      ],
+      "shareId": "dc64ad1d18f06ee9",
+      "createdAt": "2026-05-21T17:45:28.167Z",
+      "updatedAt": "2026-05-21T17:45:28.167Z"
+    },
+    {
+      "_id": "75e826e524b4dc986c72a432",
+      "user": "3eec924db8b7e27f59c44a07",
+      "title": "london",
+      "documents": [
+        {
+          "filename": "WhatsApp Image 2026-05-21 at 11.23.16 PM.jpeg",
+          "originalname": "WhatsApp Image 2026-05-21 at 11.23.16 PM.jpeg",
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "destination": "Greater London, England, United Kingdom",
+      "travelDates": {
+        "checkIn": "2026-05-25",
+        "checkOut": "2026-05-29"
+      },
+      "flightDetails": {
+        "flightNumber": "SWA 214",
+        "departureTime": "10:45 AM IST",
+        "arrivalTime": "04:30 PM BST"
+      },
+      "hotelDetails": {
+        "hotelName": "Grand London Palace Hotel",
+        "address": "Central London, United Kingdom"
+      },
+      "itinerarySummary": [
+        {
+          "day": 1,
+          "title": "May 25, 2026 - Arrival and Illuminated Landmarks",
+          "activities": [
+            "**Arrival & Hotel Check-in:** Land at London Heathrow (LHR) at 04:30 PM BST. You will be greeted by an included airport pickup service for a seamless transfer to the luxurious Grand London Palace Hotel, located in Central London. Check into your Deluxe King Room and take a moment to refresh after your journey. The hotel offers amenities like breakfast, free Wi-Fi, and a 24x7 front desk.",
+            "**Evening Thames River Cruise:** Embark on a spectacular evening Thames River Cruise (ticket included), departing from a pier near Westminster. Glide along the historic river, witnessing iconic landmarks such as the Houses of Parliament, Big Ben, the Tower of London, St. Paul's Cathedral, and Tower Bridge, all beautifully illuminated against the twilight sky. This provides a unique and relaxed introduction to London's grandeur. The clear sky and pleasant 23.3°C temperature make it perfect for enjoying the views from the open deck.",
+            "**Dinner with a View:** Following your cruise, enjoy a delightful dinner at a riverside restaurant along the South Bank or in the vibrant Westminster area, offering exquisite cuisine and excellent views of the illuminated city.",
+            "**Stroll by the Thames:** Conclude your day with a leisurely post-dinner stroll along the South Bank. Soak in the lively atmosphere, marvel at the London Eye up close, and enjoy the remarkably pleasant evening weather."
+          ]
+        },
+        {
+          "day": 2,
+          "title": "May 26, 2026 - Royal Grandeur and Political Power",
+          "activities": [
+            "**Buckingham Palace & Changing of the Guard:** Begin your day with a truly iconic London experience at Buckingham Palace, the official residence of His Majesty The King. If scheduled for the day (please check the official calendar closer to your travel date), witness the spectacular Changing of the Guard ceremony, a quintessential display of British pageantry. Consider taking the official State Rooms tour if available during your visit.",
+            "**Westminster Abbey Exploration:** Immerse yourself in over 1,000 years of history at Westminster Abbey, a UNESCO World Heritage Site. This magnificent Gothic abbey has been the traditional coronation and burial site for English and British monarchs. Explore the final resting places of kings, queens, poets, and statesmen.",
+            "**Houses of Parliament & Big Ben:** Admire the stunning Gothic Revival architecture of the Houses of Parliament and the adjacent Elizabeth Tower, famously housing Big Ben. While interior tours typically require advance booking, the exterior is a breathtaking sight for photos and appreciation.",
+            "**Churchill War Rooms:** Delve into a pivotal piece of British history at the Churchill War Rooms, the secret underground bunker where Winston Churchill and his government directed the Allied war effort during World War II.",
+            "**Dinner in Victoria/St. James's:** Enjoy a sophisticated dinner in the bustling Victoria area or the more traditional St. James's, known for its classic British pubs and refined dining establishments."
+          ]
+        },
+        {
+          "day": 3,
+          "title": "May 27, 2026 - Medieval Fortress and Cathedral Splendor",
+          "activities": [
+            "**Tower of London & Crown Jewels:** Spend your morning exploring the formidable Tower of London, a historic castle on the north bank of the River Thames. Discover its roles as a royal palace, fortress, and infamous prison. Marvel at the priceless Crown Jewels, walk the ancient battlements, and listen to captivating tales from the Yeoman Warders (Beefeaters) about its dark and intriguing past.",
+            "**Tower Bridge Experience:** Immediately adjacent to the Tower of London, ascend Tower Bridge for the 'Tower Bridge Exhibition'. Walk across the high-level glass walkways, enjoying panoramic views of London, and then descend to explore the Victorian engine rooms that once powered this engineering marvel.",
+            "**Borough Market Culinary Journey:** For lunch, immerse yourself in the bustling atmosphere and diverse culinary delights of Borough Market, one of London's oldest and largest food markets. Sample an array of fresh, artisanal, and international street food.",
+            "**St. Paul's Cathedral:** Cross the iconic Millennium Bridge (or take a short tube ride) to visit St. Paul's Cathedral. Marvel at Sir Christopher Wren's architectural masterpiece, climb to the Whispering Gallery for acoustic wonders, and ascend further to the Stone and Golden Galleries for breathtaking 360-degree views across London. The clear sky today will ensure stunning visibility.",
+            "**The Shard (Optional Sunset View):** With the excellent clear weather, consider a late afternoon visit to The Shard. Ascend to its observation decks for unparalleled panoramic views of London, making it an ideal spot to capture the city bathed in the warm hues of a sunset."
+          ]
+        },
+        {
+          "day": 4,
+          "title": "May 28, 2026 - World-Class Museums and Artistic Expression",
+          "activities": [
+            "**British Museum Exploration:** Dedicate your morning to the world-renowned British Museum. Home to a vast collection of world art and artifacts, including the Rosetta Stone, the Elgin Marbles, and an impressive collection of Egyptian mummies, its sheer scale and historical significance are unparalleled.",
+            "**Covent Garden Charm:** Head to Covent Garden for lunch and to soak in its vibrant atmosphere. Enjoy the captivating performances by street artists, browse unique boutiques and craft stalls, and perhaps catch an impromptu show in the piazza.",
+            "**National Gallery & Trafalgar Square:** Spend your afternoon at the National Gallery, located in the iconic Trafalgar Square. Discover a rich collection of European paintings from the 13th to the 19th centuries, featuring masterpieces by artists like Van Gogh, Leonardo da Vinci, and Claude Monet. Afterwards, soak in the energy of Trafalgar Square, a focal point of London.",
+            "**West End Theatre Show (Optional):** Conclude your day with a quintessential London experience by attending a world-class theatre production in the famous West End. Book tickets in advance for popular musicals or plays for an unforgettable evening.",
+            "**Dinner in Soho/Theatreland:** Enjoy a pre- or post-theatre dinner in the lively Soho district or the heart of Theatreland, offering a diverse array of international cuisines and trendy dining spots."
+          ]
+        },
+        {
+          "day": 5,
+          "title": "May 29, 2026 - Royal Parks, Palaces, and Departure",
+          "activities": [
+            "**Kensington Palace & Gardens:** Begin your final day with a visit to Kensington Palace, a working royal residence and the official London home of several members of the Royal Family. Explore its historic State Rooms and take a refreshing stroll through the beautifully manicured Kensington Gardens.",
+            "**Victoria and Albert Museum / Natural History Museum:** Choose to spend a couple of hours at either the Victoria and Albert Museum (V&A), the world's leading museum of art, design, and performance, or the magnificent Natural History Museum, famed for its dinosaur skeletons and interactive exhibits. Both are situated close to Kensington and offer enriching experiences.",
+            "**Lunch & Last-Minute Souvenirs:** Enjoy a final London lunch near Knightsbridge or South Kensington. Take some time for last-minute souvenir shopping at the iconic Harrods department store in Knightsbridge or along the bustling Oxford Street if time permits.",
+            "**Hotel Check-out & Departure:** Return to the Grand London Palace Hotel for check-out (standard check-out is 11:00 AM, but you may inquire about late check-out options due to your evening flight). Your included airport transfer will then take you comfortably back to London Heathrow (LHR) for your 08:20 PM departure flight."
+          ]
+        }
+      ],
+      "liveWeather": {
+        "temp": 23.3,
+        "condition": "Clear sky",
+        "suitability": "Excellent weather for travel! Pleasant and sunny. Very pleasant temperature. Perfect for outdoor sightseeing!"
+      },
+      "suggestedHotels": [
+        {
+          "name": "City View Hotel",
+          "address": "11, Church Street, Mill Meads, West Ham, London Borough of Newham, Greater London, England, E15 3HU, United Kingdom"
+        },
+        {
+          "name": "OYO Epsilon Hotel",
+          "address": "27A, Romford Road, Stratford, London Borough of Newham, Greater London, England, E15 4LJ, United Kingdom"
+        },
+        {
+          "name": "Sunningdale Hotel",
+          "address": "35, Lonsdale Road, Wanstead, London Borough of Redbridge, Greater London, England, E11 2PH, United Kingdom"
+        }
+      ],
+      "shareId": "6ae078d620f34085",
+      "createdAt": "2026-05-21T17:57:24.432Z",
+      "updatedAt": "2026-05-21T17:57:24.432Z"
+    }
+  ]
+}
