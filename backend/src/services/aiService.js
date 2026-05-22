@@ -875,7 +875,7 @@ const extractAndGenerateItinerary = async (files, customTitle = '') => {
 
   let destination = '';
   let travelDates = { checkIn: null, checkOut: null };
-  let flightDetails = { flightNumber: null };
+  let flightDetails = { flightNumber: null, departureTime: null, arrivalTime: null };
   let hotelDetails = null;
 
   // 2. Determine base details (AI or local fallback)
@@ -885,7 +885,7 @@ const extractAndGenerateItinerary = async (files, customTitle = '') => {
       const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
       const extractPrompt = `
         Analyze the following travel document text and the user title hint.
-        Extract the true arrival destination city, travel dates, flight number, and hotel name.
+        Extract the true arrival destination city, travel dates, flight number, flight departure time (with timezone if present), flight arrival time (with timezone if present), hotel name, and hotel address.
         Be extremely careful NOT to extract generic words like "Your" or "To" as the destination.
         
         Document text: """${extractedText}"""
@@ -897,7 +897,10 @@ const extractAndGenerateItinerary = async (files, customTitle = '') => {
           "checkIn": "YYYY-MM-DD",
           "checkOut": "YYYY-MM-DD",
           "flightNumber": "Flight number if found",
-          "hotelName": "Hotel name if found"
+          "departureTime": "Departure time/details if found (e.g. 09:30 EDT)",
+          "arrivalTime": "Arrival time/details if found (e.g. 21:15 BST)",
+          "hotelName": "Hotel name if found",
+          "hotelAddress": "Hotel address if found"
         }
       `;
       const extResult = await model.generateContent([extractPrompt, ...imageParts]);
@@ -908,7 +911,9 @@ const extractAndGenerateItinerary = async (files, customTitle = '') => {
       if (extData.checkIn) travelDates.checkIn = extData.checkIn;
       if (extData.checkOut) travelDates.checkOut = extData.checkOut;
       if (extData.flightNumber) flightDetails.flightNumber = extData.flightNumber;
-      if (extData.hotelName) hotelDetails = { hotelName: extData.hotelName, address: extData.destination };
+      if (extData.departureTime) flightDetails.departureTime = extData.departureTime;
+      if (extData.arrivalTime) flightDetails.arrivalTime = extData.arrivalTime;
+      if (extData.hotelName) hotelDetails = { hotelName: extData.hotelName, address: extData.hotelAddress || extData.destination };
     } catch (e) {
       console.error("Initial AI extraction failed, using fallback parsing.", e);
       const parsed = parseSourceAndDestination(extractedText, customTitle, files);
@@ -1007,7 +1012,11 @@ const extractAndGenerateItinerary = async (files, customTitle = '') => {
       1. You MUST generate the entire response, including the itinerary, strictly in ENGLISH. Do not use any other language (e.g., no Chinese, Japanese, etc.), even if the extracted text contains gibberish or foreign characters.
       2. Construct an absolutely perfect, highly-detailed travel itinerary for the destination: "${finalDestinationName}". 
       3. Do not do a half-assed job. Make the itinerary premium, immersive, and thorough. 
-      4. You MUST include top historical places, deeply traditional cultural sites, and famous landmarks where tourists love to visit in this location. 
+      4. You MUST include top historical places, deeply traditional cultural sites, and famous landmarks where tourists love to visit in this location.
+         - Tailor the day-by-day plan to match the vibe and specialty of this place!
+         - For beach/nature destinations (like Goa or Bali): Include beach visits, water sports, boat cruises, local shacks, and scenic sunsets.
+         - For city/historic destinations (like London or Paris): Include iconic historical sites, museums, shopping districts, traditional pubs/cafes, and evening walks.
+         - Keep the timing and flow realistic and extremely customized!
       5. The travel dates are from ${travelDates.checkIn || 'start'} to ${travelDates.checkOut || 'end'}. Plan the days exactly matching these dates.
       6. Incorporate the live weather dynamically into your advice. The current weather is ${liveWeather.temp}°C, ${liveWeather.condition}. Suitability: ${liveWeather.suitability}.
       7. If the documents did not mention a hotel, the user will be staying at: ${finalHotelDetails.hotelName}. Include this in the arrival day.
@@ -1024,8 +1033,8 @@ const extractAndGenerateItinerary = async (files, customTitle = '') => {
           },
           "flightDetails": {
             "flightNumber": "${flightDetails.flightNumber || ''}",
-            "departureTime": "",
-            "arrivalTime": ""
+            "departureTime": "${flightDetails.departureTime || ''}",
+            "arrivalTime": "${flightDetails.arrivalTime || ''}"
           },
           "hotelDetails": {
             "hotelName": "${finalHotelDetails.hotelName}",

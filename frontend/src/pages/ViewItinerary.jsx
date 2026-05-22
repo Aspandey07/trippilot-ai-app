@@ -131,6 +131,12 @@ const ViewItinerary = ({ shared = false }) => {
             <div>
               <p className="text-sm font-bold tracking-wide text-slate-400 uppercase">Flight Details</p>
               <p className="font-semibold text-slate-800 mt-1">{itinerary.flightDetails?.flightNumber || 'Not specified'}</p>
+              {itinerary.flightDetails?.departureTime && (
+                <p className="text-xs text-slate-500 mt-1 font-medium">Dep: {itinerary.flightDetails.departureTime}</p>
+              )}
+              {itinerary.flightDetails?.arrivalTime && (
+                <p className="text-xs text-slate-500 mt-0.5 font-medium">Arr: {itinerary.flightDetails.arrivalTime}</p>
+              )}
             </div>
           </div>
           <div className="p-6 flex items-start gap-4">
