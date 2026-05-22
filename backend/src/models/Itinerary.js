@@ -24,8 +24,8 @@ const itinerarySchema = new mongoose.Schema({
   },
   flightDetails: {
     flightNumber: String,
-    departureTime: Date,
-    arrivalTime: Date,
+    departureTime: String,
+    arrivalTime: String,
   },
   hotelDetails: {
     hotelName: String,

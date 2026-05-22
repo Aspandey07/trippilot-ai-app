@@ -882,7 +882,7 @@ const extractAndGenerateItinerary = async (files, customTitle = '') => {
   if (hasValidKey) {
     try {
       const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-      const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+      const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
       const extractPrompt = `
         Analyze the following travel document text and the user title hint.
         Extract the true arrival destination city, travel dates, flight number, and hotel name.
@@ -998,7 +998,7 @@ const extractAndGenerateItinerary = async (files, customTitle = '') => {
   // 5. Generate Final Itinerary
   try {
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
 
     const prompt = `
       You are an elite, expert AI Travel Planner.
